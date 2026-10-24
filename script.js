@@ -5,7 +5,7 @@ button.addEventListener("click", function() {
     const name = document.getElementById("agentName").value;
     const result = document.getElementById("result");
 
-    if (name === "Professor") {
+    if (name === "") {
         result.innerText = "Please enter agent name!";
         result.style.color = "red";
     } else {
